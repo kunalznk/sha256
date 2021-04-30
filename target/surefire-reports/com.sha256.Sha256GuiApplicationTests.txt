@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.sha256.Sha256GuiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.292 s <<< FAILURE! - in com.sha256.Sha256GuiApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sha256GuiApplication': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.sha256.Sha256GuiApplication$$EnhancerBySpringCGLIB$$1c156b75]: Constructor threw exception; nested exception is java.awt.HeadlessException
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.sha256.Sha256GuiApplication$$EnhancerBySpringCGLIB$$1c156b75]: Constructor threw exception; nested exception is java.awt.HeadlessException
+Caused by: java.awt.HeadlessException
+
